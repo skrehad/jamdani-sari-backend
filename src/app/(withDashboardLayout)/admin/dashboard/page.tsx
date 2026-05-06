@@ -57,10 +57,10 @@ export default function AdminDashboardPage() {
   return (
     <div className="p-6 space-y-10 bg-gray-50 min-h-screen">
       {/* Gradient Header */}
-      <div className="bg-linear-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-3xl shadow-lg flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-8 rounded-3xl shadow-lg flex flex-col md:flex-row justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold">Welcome Admin 👑</h1>
-          <p className="opacity-90 mt-2">
+          <p className="opacity-90  mt-2">
             Control and manage your entire platform from here.
           </p>
         </div>
@@ -111,7 +111,7 @@ export default function AdminDashboardPage() {
             <Link
               key={index}
               href={link.href}
-              className="bg-linear-to-r from-indigo-500 to-purple-500 text-white p-4 rounded-2xl text-center font-semibold hover:scale-105 transition duration-300 shadow-md"
+              className="bg-gradient-to-r from-indigo-500 to-purple-500 text-white p-4 rounded-2xl text-center font-semibold hover:scale-105 transition duration-300 shadow-md"
             >
               {link.name}
             </Link>

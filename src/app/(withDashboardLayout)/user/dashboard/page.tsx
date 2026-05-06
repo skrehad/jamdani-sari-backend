@@ -58,7 +58,7 @@ export default function UserDashboardPage() {
   return (
     <div className="p-6 space-y-10 bg-gray-50 min-h-screen">
       {/* Gradient Header */}
-      <div className="bg-linear-to-r from-blue-500 to-indigo-500 text-white p-8 rounded-3xl shadow-lg flex flex-col md:flex-row justify-between items-center">
+      <div className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-8 rounded-3xl shadow-lg flex flex-col md:flex-row justify-between items-center">
         <div>
           <h1 className="text-3xl font-bold">Welcome Back 👋</h1>
           <p className="opacity-90 mt-2">
@@ -112,7 +112,7 @@ export default function UserDashboardPage() {
             <Link
               key={index}
               href={link.href}
-              className="bg-linear-to-r from-blue-500 to-indigo-500 text-white p-4 rounded-2xl text-center font-semibold hover:scale-105 transition duration-300 shadow-md"
+              className="bg-gradient-to-r from-blue-500 to-indigo-500 text-white p-4 rounded-2xl text-center font-semibold hover:scale-105 transition duration-300 shadow-md"
             >
               {link.name}
             </Link>

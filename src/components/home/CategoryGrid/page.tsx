@@ -34,8 +34,16 @@ export default function CategoryGrid() {
           <Link key={cat.id} href={`/shop`}>
             <div className="group relative p-10 rounded-2xl border border-gray-100 shadow-sm hover:shadow-xl transition-all duration-300 hover:-translate-y-1 cursor-pointer">
               {/* gradient top line */}
-              <div
+              {/* <div
                 className={`h-1 w-16 rounded-full bg-linear-to-r ${cat.accent} mb-6 group-hover:w-24 transition-all duration-300`}
+              /> */}
+
+              {/* <div
+                className={`h-1.5 w-16 rounded-full bg-gradient-to-r ${cat.accent} mb-6 group-hover:w-28 transition-all duration-300 shadow-sm`}
+              /> */}
+
+              <div
+                className={`h-1.5 w-16 rounded-full bg-gradient-to-r ${cat.accent} mb-6 group-hover:w-28 transition-all duration-300 shadow-sm group-hover:shadow-md`}
               />
 
               {/* title */}

@@ -40,7 +40,7 @@ export default function Sidebar() {
   return (
     <aside className="w-64 min-h-screen bg-white shadow-xl flex flex-col border-r sticky top-0">
       {/* Header */}
-      <div className="bg-linear-to-r from-indigo-600 to-purple-600 text-white p-5">
+      <div className="bg-gradient-to-r from-indigo-600 to-purple-600 text-white p-5">
         <div className="flex items-center gap-2">
           <LayoutDashboard size={20} />
           <h2 className="font-bold text-lg">{user.role} Panel</h2>

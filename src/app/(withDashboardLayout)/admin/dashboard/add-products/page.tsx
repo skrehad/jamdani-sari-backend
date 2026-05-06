@@ -216,7 +216,7 @@ const AddProductPage = () => {
             {images.map((img, index) => (
               <div
                 key={index}
-                className="relative w-25 h-25 border rounded overflow-hidden"
+                className="relative w-24 h-24 border rounded overflow-hidden"
               >
                 <Image
                   src={img.preview}
