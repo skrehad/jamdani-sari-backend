@@ -11,8 +11,8 @@ const validateRequest_1 = __importDefault(require("../../utils/validateRequest")
 const user_controller_1 = require("./user.controller");
 const user_validation_1 = require("./user.validation");
 const route = (0, express_1.Router)();
-route.get("/", (0, auth_1.default)(client_1.UserRole.ADMIN), user_controller_1.userControllers.getAllUsers);
-// route.get("/", userControllers.getAllUsers);
+// route.get("/", auth(UserRole.ADMIN), userControllers.getAllUsers);
+route.get("/", user_controller_1.userControllers.getAllUsers);
 route.get("/:id", (0, auth_1.default)(client_1.UserRole.ADMIN), user_controller_1.userControllers.getSingleUser);
 // route.get("/:id", userControllers.getSingleUser);
 route.patch("/update/:id", (0, auth_1.default)(client_1.UserRole.ADMIN), (0, validateRequest_1.default)(user_validation_1.userValidation.updateUserSchema), user_controller_1.userControllers.updateUser);

@@ -7,8 +7,8 @@ import { userValidation } from "./user.validation";
 
 const route = Router();
 
-route.get("/", auth(UserRole.ADMIN), userControllers.getAllUsers);
-// route.get("/", userControllers.getAllUsers);
+// route.get("/", auth(UserRole.ADMIN), userControllers.getAllUsers);
+route.get("/", userControllers.getAllUsers);
 
 route.get("/:id", auth(UserRole.ADMIN), userControllers.getSingleUser);
 // route.get("/:id", userControllers.getSingleUser);
