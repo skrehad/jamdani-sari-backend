@@ -9,6 +9,7 @@
     "test": "mocha"
   },
   "dependencies": {
+    "@prisma/client": "^6.19.3",
     "abbrev": "^1.1.1",
     "accepts": "^2.0.0",
     "acorn": "^8.16.0",
@@ -216,8 +217,8 @@
     "stack-trace": "^0.0.10",
     "statuses": "^2.0.2",
     "streamsearch": "^1.1.0",
-    "string-width": "^4.2.3",
     "string_decoder": "^1.1.1",
+    "string-width": "^4.2.3",
     "strip-ansi": "^6.0.1",
     "strip-bom": "^3.0.0",
     "strip-json-comments": "^3.1.1",
@@ -262,6 +263,9 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@types/cookie-parser": "^1.4.10",
+    "@types/cors": "^2.8.19",
+    "@types/multer": "^2.1.0",
     "mocha": "^9.2.2"
   },
   "repository": {
