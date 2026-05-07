@@ -263,9 +263,12 @@
     "zod": "^3.25.76"
   },
   "devDependencies": {
+    "@types/bcrypt": "^6.0.0",
     "@types/cookie-parser": "^1.4.10",
     "@types/cors": "^2.8.19",
+    "@types/jsonwebtoken": "^9.0.10",
     "@types/multer": "^2.1.0",
+    "@types/nodemailer": "^8.0.0",
     "mocha": "^9.2.2"
   },
   "repository": {
