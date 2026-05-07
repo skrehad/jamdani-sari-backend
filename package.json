@@ -182,7 +182,7 @@
     "path-parse": "^1.0.7",
     "path-to-regexp": "^8.4.0",
     "picomatch": "^2.3.2",
-    "prisma": "^5.10.2",
+    "prisma": "^6.19.3",
     "process-nextick-args": "^2.0.1",
     "proxy-addr": "^2.0.7",
     "qs": "^6.15.0",
