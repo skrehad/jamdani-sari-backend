@@ -14,8 +14,8 @@ app.use(express.urlencoded({ extended: true, limit: "10mb" }));
 
 app.use(
   cors({
-    // origin: "http://localhost:3000",
-    origin: "https://jamdani-frontend.vercel.app",
+    origin: "http://localhost:3000",
+    // origin: "https://jamdani-frontend.vercel.app",
     methods: ["GET", "POST", "PUT", "DELETE", "OPTIONS"],
     credentials: true,
   }),
